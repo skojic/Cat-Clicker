@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cat Clicker</title>
+    <!--External CSS Stylesheet-->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>Cat Clicker !!!</h1>
+  <!--First Cat Name-->
+  <div id="catName"></div>
+  <!--First Cat Picture-->
+  <div class="container">
+  <div id="catPicture1" onclick="incrementOne()">
+    <img 
+      src="./img/cat.jpg" 
+      alt="Cat" 
+      height="150"
+    >
+  </div>
+  <div id="clicker1"></div>
+</div>
+  <!--Second Cat Name-->
+  <div id="secondCatName"></div>
+  <div class="container">
+  <!--Second Cat Picture-->
+  <div id="catPicture2" onclick="incrementTwo()">
+    <img 
+      src="./img/cat1.jpg" 
+      alt="Another Cat" 
+      height="150" 
+    >
+  </div>
+  <div id="clicker2"></div>
+</div>
+  <!--External Javascript file-->
+  <script src="main.js"></script>
+</body>
+</html>

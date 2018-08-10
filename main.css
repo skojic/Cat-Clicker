@@ -1,0 +1,68 @@
+/* Main stylesheet file for the web application */
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+  background: #AA3939;
+}
+
+h1 {
+  color: #FFAAAA;
+  font-family: 'Indie Flower', cursive;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+#catName {
+  color: #FFAAAA;
+  font-family: 'Indie Flower', cursive;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#secondCatName {
+  color: #FFAAAA;
+  font-family: 'Indie Flower', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+#catPicture1, #catPicture2 {
+  color: #FFAAAA;
+  font-size: 20px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  border: 3px solid white;
+}
+
+#clicker1, #clicker2 {
+  font-size: 5em;
+  color: #AA3939;
+  margin-left: 50px;
+  margin-top: 15px;
+  justify-content: space-evenly;
+}
+
+#catName, #secondCatName {
+  font-size: 30px;
+}
+
+.container {
+  height: 155px;
+  background:
+  radial-gradient(circle farthest-side at 0% 50%,#fb1 23.5%,rgba(240,166,17,0) 0)21px 30px,
+  radial-gradient(circle farthest-side at 0% 50%,#B71 24%,rgba(240,166,17,0) 0)19px 30px,
+  linear-gradient(#fb1 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#fb1 0)0 0,
+  linear-gradient(150deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+  linear-gradient(30deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+  linear-gradient(90deg,#B71 2%,#fb1 0,#fb1 98%,#B71 0%)0 0 #fb1;
+  background-size:40px 60px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
